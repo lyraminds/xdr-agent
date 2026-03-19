@@ -1,3 +1,5 @@
+## Mac, Debian, RPM installer
+
 ### Install (default)
 
 curl -fsSL "https://raw.githubusercontent.com/lyraminds/xdr-agent-install/main/install.sh" | sudo bash
@@ -17,3 +19,6 @@ curl -fsSL "https://raw.githubusercontent.com/lyraminds/xdr-agent-install/main/i
 ### Status
 
 curl -fsSL "https://raw.githubusercontent.com/lyraminds/xdr-agent-install/main/install.sh" | sudo bash -s -- status
+
+Windows
+
