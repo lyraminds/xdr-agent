@@ -4,7 +4,7 @@
 # Safe to share. Contains NO secrets.
 #
 # USAGE:
-#   curl -fsSL https://raw.githubusercontent.com/lyraminds/laro-xdr-agent-install/main/install.sh | sudo bash
+#   curl -fsSL https://raw.githubusercontent.com/lyraminds/xdr-agent-install/refs/heads/main/xdr-agent.sh | sudo bash
 #   curl -fsSL <url> | sudo bash -s -- remove
 #   curl -fsSL <url> | sudo bash -s -- enroll
 #   curl -fsSL <url> | sudo bash -s -- status
@@ -13,7 +13,7 @@
 
 set -euo pipefail
 
-readonly PRIVATE_URL="https://raw.githubusercontent.com/lyraminds/xdr-agent-install/main/xdr-agent.sh"
+readonly PRIVATE_URL="https://raw.githubusercontent.com/lyraminds/xdr-agent-install/refs/heads/main/xdr-agent.sh"
 
 # ── Prompt for PAT ────────────────────────────────────────────────────────────
 # Must read from /dev/tty — stdin is the script itself when piped via curl | bash
